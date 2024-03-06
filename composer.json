@@ -1,0 +1,22 @@
+{
+  "name": "tan_admin/ecommerce_php_5_1",
+  "description": "Du an web ban hang",
+  "autoload": {
+    "psr-4": {
+      "TanAdmin\\QuizOnline\\": [
+        "vender/"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "TANVNPH33606",
+      "email": "tanvnph33606@fpt.edu.vn"
+    }
+  ],
+  "require": {
+    "phpmailer/phpmailer": "^6.8",
+    "cloudinary/cloudinary_php": "^2",
+    "tecnickcom/tcpdf": "^6.6"
+  }
+}
